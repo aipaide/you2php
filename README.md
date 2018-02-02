@@ -12,7 +12,7 @@ https://github.com/onplus/you2php-heroku/tree/web
 
 ![pH5t3D.png](https://s1.ax1x.com/2018/01/25/pH5t3D.png)
 
-> 2.编辑config.php文件，修改里面的第三行，填入您申请的youtube api key。其他几行也可以修改。看注释
+> 2.编辑web/config.php文件，修改里面的第三行，填入您申请的youtube api key。其他几行也可以修改。看注释
 
 ![pHhWRg.png](https://s1.ax1x.com/2018/01/25/pHhWRg.png)
 ![pHhRJS.png](https://s1.ax1x.com/2018/01/25/pHhRJS.png)
