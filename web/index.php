@@ -57,56 +57,6 @@ if(isset($_GET['v'])){
   
 </div></div>
 
-<div class="container d-lg-none d-md-none p-0">
-    
-  <div id="lb" class="carousel slide" data-ride="carousel" width="100%">
- <?php
-  $feedlist=array();
-  $feed=array();
-    foreach ($feedlist as $v) {
-      $feed[]=$v['dat'][0];  
-    }
- echo ' <ul class="carousel-indicators">';
- for ($i = 1; $i < count($feed); $i++) {
-      if($i == 1){
-      echo '<li data-target="#lb" data-slide-to="'.$i.'" class="active"></li>';   
-      }else{
-       echo '<li data-target="#lb" data-slide-to="'.$i.'"></li>'; 
-      }
- }
- echo '</ul>
- <div class="carousel-inner">';
- foreach ($feed as $key => $val) {
- if($key==0){
-       echo '
-       <div class="carousel-item active">
-       <a href="./watch.php?v='.$val['id'].'">
-       <img src="./thumbnail.php?type=mqdefault&vid='.$val['id'].'" class="img-responsive">
-       </a>
-      <div class="carousel-caption">
-        <p class="my-0 text-white">'.$val['title'].'</p>
-      </div>
-    </div>'; 
-    }else{
-       echo '<div class="carousel-item">
-        <a href="./watch.php?v='.$val['id'].'">
-      <img src="./thumbnail.php?type=mqdefault&vid='.$val['id'].'" class="img-responsive">
-      </a>
-      <div class="carousel-caption text-truncate">
-         <pclass="my-0 text-white">'.$val['title'].'</p>
-      </div>
-    </div>'; 
-    }
- }
-    echo '</div>';
- ?>
-
- 
-
- 
-</div>
-    
-</div>
 
   <div class="container py-2">
       
