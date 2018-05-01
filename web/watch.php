@@ -66,7 +66,7 @@ if (in_array($videodata['items']['0']['id'] ,$histmp)){
         				    }
         				     echo $description;
         				    } else { 
-        				        echo '这个人很懒，简介都不写....';
+        				        echo '^_^';
         				};
 			         ?>   
                     </p>
@@ -82,6 +82,12 @@ if (in_array($videodata['items']['0']['id'] ,$histmp)){
                 </span>
                 <span class="pr-1">
                     <a href="./content.php?cont=video&v=<?php echo $videodata['items']['0']['id'] ?>" target="_blank" class="fsize2"><i class="fa fa-share-square-o pr-1"></i>下载</a>
+                </span>
+                <span class="pr-1">
+                    <a href="https://github.com/gfw-breaker/nogfw/blob/master/README.md" target="_blank" class="fsize2"><i class="fa fa-share-square-o pr-1"></i>翻墙软件</a>
+                </span>
+                <span class="pr-1">
+                    <a href="https://my-ntdtv.herokuapp.com/sites.html" target="_blank" class="fsize2"><i class="fa fa-share-square-o pr-1"></i>Web代理</a>
                 </span>
                 </span>
              </div>

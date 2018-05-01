@@ -3,8 +3,10 @@
             Copyright © 2015-<?php echo date('Y');?> All Rights Reserved </br>
         </p>
         <p  class="text-white  m-1 p-1 h6">
-            Powered by <a href="https://you2php.github.io/" target="_blank" class="text-white font-italic">YOU2PHP</a> 
-            <a href="./embed/upgrade.php" target="_blank" class="text-white ml-2">检查更新</a>
+			<a href="http:/truth.atspace.eu/" target="_blank" class="text-white ml-2">我的博客</a> 
+            <a href="https://github.com/gfw-breaker/nogfw/blob/master/README.md" target="_blank" class="text-white ml-2">翻墙软件</a>
+            <a href="https://github.com/Alvin9999/new-pac/wiki" target="_blank" class="text-white ml-2">自由上网</a>
+            <a href="https://github.com/oGate2/oGate/blob/master/README.md" target="_blank" class="text-white ml-2">网门</a>
         </p>
     </footer>
   

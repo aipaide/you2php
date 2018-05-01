@@ -61,7 +61,7 @@ if(isset($_GET['v'])){
     
   <div id="lb" class="carousel slide" data-ride="carousel" width="100%">
  <?php
-  $feedlist=random_recommend();
+  $feedlist=array();
   $feed=array();
     foreach ($feedlist as $v) {
       $feed[]=$v['dat'][0];  
@@ -116,37 +116,90 @@ if(isset($_GET['v'])){
           <script>$("#menu").load('<?php echo './ajax/ajax.php?type=menu'?>');</script>
     </div>
       <div class="col-md-9 ">
-         <div class="col-md-12 pb-3 d-none d-sm-none d-md-block" style="background: url(http://wx2.sinaimg.cn/large/b0738b0agy1fm4j4ba83wj20t60jh0uf.jpg) no-repeat;background-size: cover;background-position: center -80px;text-align: center;
+         <div class="col-md-12 pb-3 d-none d-sm-none d-md-block" style="background:url(./inc/bg.jpg) no-repeat;background-size: cover;background-position: center -80px;text-align: center;
     "> 
-   <h3 class="pt-5 pb-2 text-white">你好 世界！</h3>
-    <form>
-  <div class="form-group" >
-      <input type="text" name="v" style="width: 50%;height: 50px;border: none;box-sizing: border-box;padding: 14px 18px;" placeholder="请输入视频ID或Youtube链接"  autocomplete="off" /><button type="submit"  style="width: 18%;border: none;height: 50px;background-color: #e62117;color: #fff;font-size: 18px;display: inline-block;" ><i class="fa fa-youtube-play fa-lg pr-1"></i>播放</button>
-  </div>
-    </form>
-    <p class="text-white m-0">社会主义核心价值观:</p>
-    <p class="text-white m-0">富强、民主、文明、和谐</p>
-    <p class="text-white m-0">自由、平等、公正、法治</p>
-    <p class="text-white m-0">爱国、敬业、诚信、友善</p>
+   <h3 class="pt-5 pb-2 text-white">Hello World！</h3>
+	<br/>
+	<p class="text-white m-0">
+		<a href="https://github.com/gfw-breaker/heroku-node-proxy#--end--" target="_blank" style="color:white">免费通用Web代理</a> &nbsp;&nbsp;&nbsp;
+		<a href="https://github.com/gfw-breaker/you2php-heroku#--end--" target="_blank" style="color:white">免费YouTube代理</a>
+	</p>
+	<br/>
+    <p class="text-white m-0"><a href="https://github.com/gfw-breaker/nogfw/blob/master/README.md" target="_blank" style="color:white">下载一键翻墙软件 - 打破网络封锁，重获网络自由</a></p>
+	<br/>
     </div>
-    
+   <br/>
+
     <div class="row pt-2 pb-2">
     <div class="col-8 sm-p">
-      <span class="txt2 ricon h5">时下流行</span>
+      <span class="txt2 ricon h5">传奇时代</span>
     </div>
     <div class="col-4 text-right sm-p">
-      <a href="./content.php?cont=trending" title="更多" target="_blank" class="icontext h6 pl-1 ">更多<i class="fa d-inline fa-lg fa-angle-double-right"></i></a>
+      <a href="./channel.php?channelid=UCHOR6YkgiQKBkltdHxIWBwA" title="更多" target="_blank" class="icontext h6 pl-1 ">更多<i class="fa d-inline fa-lg fa-angle-double-right"></i></a>
     </div>
-  </div>
-         
-          
-        
-            <div id="videocontent" class="videocontentrow"></div>
-            <div id="recommend" class="videocontentrow"></div>
+  	</div>
+    <div id="videocontent1" class="videocontentrow"></div>
+
+
+    <div class="row pt-2 pb-2">
+    <div class="col-8 sm-p">
+      <span class="txt2 ricon h5">文昭谈古论今</span>
+    </div>
+    <div class="col-4 text-right sm-p">
+      <a href="./channel.php?channelid=UCtAIPjABiQD3qjlEl1T5VpA" title="更多" target="_blank" class="icontext h6 pl-1 ">更多<i class="fa d-inline fa-lg fa-angle-double-right"></i></a>
+    </div>
+  	</div>
+    <div id="videocontent2" class="videocontentrow"></div>
+
+    <div class="row pt-2 pb-2">
+    <div class="col-8 sm-p">
+      <span class="txt2 ricon h5">神韵官方频道</span>
+    </div>
+    <div class="col-4 text-right sm-p">
+      <a href="./channel.php?channelid=UC_z8ERuOLTrlAaopY0gxzsA" title="更多" target="_blank" class="icontext h6 pl-1 ">更多<i class="fa d-inline fa-lg fa-angle-double-right"></i></a>
+    </div>
+  	</div>
+    <div id="videocontent3" class="videocontentrow"></div>
+
+    <div class="row pt-2 pb-2">
+    <div class="col-8 sm-p">
+      <span class="txt2 ricon h5">新唐人电视台</span>
+    </div>
+    <div class="col-4 text-right sm-p">
+      <a href="./channel.php?channelid=UCYSHqbSBDD0X3NC-ze8z5xQ" title="更多" target="_blank" class="icontext h6 pl-1 ">更多<i class="fa d-inline fa-lg fa-angle-double-right"></i></a>
+    </div>
+  	</div>
+    <div id="videocontent4" class="videocontentrow"></div>
+
+    <div class="row pt-2 pb-2">
+    <div class="col-8 sm-p">
+      <span class="txt2 ricon h5">大纪元新闻看点</span>
+    </div>
+    <div class="col-4 text-right sm-p">
+      <a href="./channel.php?channelid=UCPMqbkR35zZV1ysWGXJPW-w" title="更多" target="_blank" class="icontext h6 pl-1 ">更多<i class="fa d-inline fa-lg fa-angle-double-right"></i></a>
+    </div>
+  	</div>
+    <div id="videocontent5" class="videocontentrow"></div>
+
+    <div class="row pt-2 pb-2">
+    <div class="col-8 sm-p">
+      <span class="txt2 ricon h5">希望之声国际广播</span>
+    </div>
+    <div class="col-4 text-right sm-p">
+      <a href="./channel.php?channelid=UCPMqbkR35zZV1ysWGXJPW-w" title="更多" target="_blank" class="icontext h6 pl-1 ">更多<i class="fa d-inline fa-lg fa-angle-double-right"></i></a>
+    </div>
+  	</div>
+    <div id="videocontent6" class="videocontentrow"></div>
+
     <script>
-    $("#videocontent").load('./ajax/ajax.php?type=trending');
-    $("#recommend").load('./ajax/ajax.php?type=recommend');
+	    $("#videocontent1").load('./ajax/ajax.php?type=channeltop&channelid=UCHOR6YkgiQKBkltdHxIWBwA');
+	    $("#videocontent2").load('./ajax/ajax.php?type=channeltop&channelid=UCtAIPjABiQD3qjlEl1T5VpA');
+	    $("#videocontent3").load('./ajax/ajax.php?type=channeltop&channelid=UC_z8ERuOLTrlAaopY0gxzsA');
+	    $("#videocontent4").load('./ajax/ajax.php?type=channeltop&channelid=UCYSHqbSBDD0X3NC-ze8z5xQ');
+	    $("#videocontent5").load('./ajax/ajax.php?type=channeltop&channelid=UCPMqbkR35zZV1ysWGXJPW-w');
+	    $("#videocontent6").load('./ajax/ajax.php?type=channeltop&channelid=UCCdWF5GML4ai-DVSp0Tgyxg');
     </script>
+    
     
         </div>
     </div>

@@ -18,7 +18,7 @@ if(isset($_GET['pageToken'])){$ptk=$_GET["pageToken"];} else {$ptk='';}
           
            <p class="kkkkkk pb-1 text-center" style="color: white;">
                <?php
-               if(!empty($channel['items'][0]['snippet']['description'])){echo $channel['items'][0]['snippet']['description'];}else{echo '这个家伙很懒,什么也没留下...';}?>
+               if(!empty($channel['items'][0]['snippet']['description'])){echo $channel['items'][0]['snippet']['description'];}else{echo '^_^';}?>
                </p>
           <script>
 $(document).ready(function(){
