@@ -103,10 +103,10 @@ if(isset($_GET['v'])){
 
     <div class="row pt-2 pb-2">
     <div class="col-8 sm-p">
-      <span class="txt2 ricon h5">神韵官方频道</span>
+      <span class="txt2 ricon h5">大陆新闻解读</span>
     </div>
     <div class="col-4 text-right sm-p">
-      <a href="./channel.php?channelid=UC_z8ERuOLTrlAaopY0gxzsA" title="更多" target="_blank" class="icontext h6 pl-1 ">更多<i class="fa d-inline fa-lg fa-angle-double-right"></i></a>
+      <a href="./channel.php?channelid=UC3C919BI3dyDCgQHQVXY6Vg" title="更多" target="_blank" class="icontext h6 pl-1 ">更多<i class="fa d-inline fa-lg fa-angle-double-right"></i></a>
     </div>
   	</div>
     <div id="videocontent3" class="videocontentrow"></div>
@@ -144,7 +144,7 @@ if(isset($_GET['v'])){
     <script>
 	    $("#videocontent1").load('./ajax/ajax.php?type=channeltop&channelid=UCHOR6YkgiQKBkltdHxIWBwA');
 	    $("#videocontent2").load('./ajax/ajax.php?type=channeltop&channelid=UCtAIPjABiQD3qjlEl1T5VpA');
-	    $("#videocontent3").load('./ajax/ajax.php?type=channeltop&channelid=UC_z8ERuOLTrlAaopY0gxzsA');
+	    $("#videocontent3").load('./ajax/ajax.php?type=channeltop&channelid=UC3C919BI3dyDCgQHQVXY6Vg');
 	    $("#videocontent4").load('./ajax/ajax.php?type=channeltop&channelid=UCYSHqbSBDD0X3NC-ze8z5xQ');
 	    $("#videocontent5").load('./ajax/ajax.php?type=channeltop&channelid=UCPMqbkR35zZV1ysWGXJPW-w');
 	    $("#videocontent6").load('./ajax/ajax.php?type=channeltop&channelid=UCTTze68wWZvWoFfaWvjnw_Q');
