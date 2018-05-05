@@ -4,6 +4,7 @@
         </p>
         <p  class="text-white  m-1 p-1 h6">
 			<a href="https://my-ntdtv.herokuapp.com/proxy/http://truth.atspace.eu/" target="_blank" class="text-white ml-2">我的博客</a> 
+			<a href="https://my-ntdtv.herokuapp.com/sites.html" target="_blank" class="text-white ml-2">Web代理</a> 
             <a href="https://github.com/gfw-breaker/nogfw/blob/master/README.md" target="_blank" class="text-white ml-2">翻墙软件</a>
             <a href="https://github.com/Alvin9999/new-pac/wiki" target="_blank" class="text-white ml-2">自由上网</a>
             <a href="https://github.com/oGate2/oGate/blob/master/README.md" target="_blank" class="text-white ml-2">网门</a>
