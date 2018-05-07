@@ -168,8 +168,8 @@ if(isset($_GET['v'])){
 	    $("#videocontent4").load('./ajax/ajax.php?type=channeltop&channelid=UCYSHqbSBDD0X3NC-ze8z5xQ');
 	    $("#videocontent5").load('./ajax/ajax.php?type=channeltop&channelid=UCPMqbkR35zZV1ysWGXJPW-w');
 	    $("#videocontent6").load('./ajax/ajax.php?type=channeltop&channelid=UCTTze68wWZvWoFfaWvjnw_Q');
-	    $("#videocontent7").load('./ajax/ajax.php?type=channeltop&channelid=FalunGongStories');
-	    $("#videocontent8").load('./ajax/ajax.php?type=channeltop&channelid=zhengjian2009');
+	    $("#videocontent7").load('./ajax/ajax.php?type=channeltop&channelid=UC1aKw9RXdnBMnCRWong8Vww');
+	    $("#videocontent8").load('./ajax/ajax.php?type=channeltop&channelid=UC40T0Oz3ZV5ZAsQ3Cw7cOuQ');
     </script>
     
     
