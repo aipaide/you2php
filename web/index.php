@@ -133,16 +133,6 @@ if(isset($_GET['v'])){
 
     <div class="row pt-2 pb-2">
     <div class="col-8 sm-p">
-      <span class="txt2 ricon h5">共产党百年历史</span>
-    </div>
-    <div class="col-4 text-right sm-p">
-      <a href="./channel.php?channelid=UCTTze68wWZvWoFfaWvjnw_Q" title="更多" target="_blank" class="icontext h6 pl-1 ">更多<i class="fa d-inline fa-lg fa-angle-double-right"></i></a>
-    </div>
-  	</div>
-    <div id="videocontent6" class="videocontentrow"></div>
-
-    <div class="row pt-2 pb-2">
-    <div class="col-8 sm-p">
       <span class="txt2 ricon h5">法轮功真相</span>
     </div>
     <div class="col-4 text-right sm-p">
@@ -150,6 +140,26 @@ if(isset($_GET['v'])){
     </div>
   	</div>
     <div id="videocontent7" class="videocontentrow"></div>
+
+    <div class="row pt-2 pb-2">
+    <div class="col-8 sm-p">
+      <span class="txt2 ricon h5">正見網</span>
+    </div>
+    <div class="col-4 text-right sm-p">
+      <a href="./channel.php?channelid=zhengjian2009" title="更多" target="_blank" class="icontext h6 pl-1 ">更多<i class="fa d-inline fa-lg fa-angle-double-right"></i></a>
+    </div>
+  	</div>
+    <div id="videocontent8" class="videocontentrow"></div>
+
+    <div class="row pt-2 pb-2">
+    <div class="col-8 sm-p">
+      <span class="txt2 ricon h5">共产党百年历史</span>
+    </div>
+    <div class="col-4 text-right sm-p">
+      <a href="./channel.php?channelid=UCTTze68wWZvWoFfaWvjnw_Q" title="更多" target="_blank" class="icontext h6 pl-1 ">更多<i class="fa d-inline fa-lg fa-angle-double-right"></i></a>
+    </div>
+  	</div>
+    <div id="videocontent6" class="videocontentrow"></div>
 
     <script>
 	    $("#videocontent1").load('./ajax/ajax.php?type=channeltop&channelid=UCHOR6YkgiQKBkltdHxIWBwA');
@@ -159,6 +169,7 @@ if(isset($_GET['v'])){
 	    $("#videocontent5").load('./ajax/ajax.php?type=channeltop&channelid=UCPMqbkR35zZV1ysWGXJPW-w');
 	    $("#videocontent6").load('./ajax/ajax.php?type=channeltop&channelid=UCTTze68wWZvWoFfaWvjnw_Q');
 	    $("#videocontent7").load('./ajax/ajax.php?type=channeltop&channelid=FalunGongStories');
+	    $("#videocontent8").load('./ajax/ajax.php?type=channeltop&channelid=zhengjian2009');
     </script>
     
     
