@@ -136,7 +136,7 @@ if(isset($_GET['v'])){
       <span class="txt2 ricon h5">法轮功真相</span>
     </div>
     <div class="col-4 text-right sm-p">
-      <a href="./channel.php?channelid=FalunGongStories" title="更多" target="_blank" class="icontext h6 pl-1 ">更多<i class="fa d-inline fa-lg fa-angle-double-right"></i></a>
+      <a href="./channel.php?channelid=UC1aKw9RXdnBMnCRWong8Vww" title="更多" target="_blank" class="icontext h6 pl-1 ">更多<i class="fa d-inline fa-lg fa-angle-double-right"></i></a>
     </div>
   	</div>
     <div id="videocontent7" class="videocontentrow"></div>
@@ -146,7 +146,7 @@ if(isset($_GET['v'])){
       <span class="txt2 ricon h5">正見網</span>
     </div>
     <div class="col-4 text-right sm-p">
-      <a href="./channel.php?channelid=zhengjian2009" title="更多" target="_blank" class="icontext h6 pl-1 ">更多<i class="fa d-inline fa-lg fa-angle-double-right"></i></a>
+      <a href="./channel.php?channelid=UC40T0Oz3ZV5ZAsQ3Cw7cOuQ" title="更多" target="_blank" class="icontext h6 pl-1 ">更多<i class="fa d-inline fa-lg fa-angle-double-right"></i></a>
     </div>
   	</div>
     <div id="videocontent8" class="videocontentrow"></div>
