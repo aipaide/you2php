@@ -65,7 +65,7 @@ if($cont=="trending"){
             <?php 
             switch ($cont) {
 					case 'gfw':
-				echo '<br/><br/>
+				echo '<br/>
 	  <h4>实用工具</h4>
 		<a href="https://my-ntdtv.herokuapp.com/proxy/https://www.google.com/search?q=425事件" target="_blank">Google搜索</a>
 		<a href="https://my-ntdtv.herokuapp.com/proxy/https://zh.wikipedia.org/wiki/喬高-麥塔斯調查報告" target="_blank">维基百科</a>
@@ -106,8 +106,7 @@ if($cont=="trending"){
 		<a href="https://my-ntdtv.herokuapp.com/proxy/http://www.epochtimes.com/gb/nf1156504.htm" target="_blank">共产党百年真相</a>
 		<a href="https://my-ntdtv.herokuapp.com/proxy/http://www.epochtimes.com/gb/18/1/3/n10022138.htm" target="_blank">共产主义的终极目的</a>
 		<a href="https://my-ntdtv.herokuapp.com/proxy/http://www.soundofhope.org/gb/2014/03/31/n327527.html" target="_blank">解体党文化</a>
-    </div>
-	<br/>';
+	';
 					break;					
 
                     case 'history':
