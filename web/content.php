@@ -74,12 +74,14 @@ if($cont=="trending"){
 		<a href="https://my-ntdtv.herokuapp.com/proxy/http://dongtaiwang.com/loc/phome.php" target="_blank">动态网</a>
 		<a href="https://my-ntdtv.herokuapp.com/proxy/http://wujieliulan.com/" target="_blank">无界网络</a>
 		<br/>
+		<br/>
 	  <h5>热门节目</h5>
 		<a href="https://my-ntdtv.herokuapp.com/tv.html" target="_blank">新唐人直播</a>
 		<a href="https://my-ntdtv.herokuapp.com/proxy/http://www.ntdtv.com/xtr/gb/prog109.html" target="_blank">大陆新闻解读</a>
 		<a href="https://my-ntdtv.herokuapp.com/proxy/http://www.ntdtv.com/xtr/gb/prog829.html" target="_blank">中国禁闻</a>
 		<a href="https://my-ntdtv.herokuapp.com/proxy/http://www.ntdtv.com/xtr/gb/prog107.html" target="_blank">今日点击</a>
 		<a href="https://my-ntdtv.herokuapp.com/proxy/http://www.ntdtv.com/xtr/gb/prog99.html" target="_blank">热点互动</a>
+		<br/>
 		<br/>
 	  <h5>新闻媒体</h5>
 	    <a href="https://my-ntdtv.herokuapp.com/proxy/http://www.epochtimes.com/" target="_blank">大纪元新闻网</a>
@@ -93,6 +95,7 @@ if($cont=="trending"){
 		<a href="https://my-ntdtv.herokuapp.com/proxy/https://cn.reuters.com/" target="_blank">路透中文网</a>
 		<a href="https://my-ntdtv.herokuapp.com/proxy/http://cn.rfi.fr/" target="_blank">法国国际广播电台</a>
 		<br/>
+		<br/>
       <h5>法轮功真相</h5>
 		<a href="https://my-ntdtv.herokuapp.com/proxy/http://www.epochtimes.com/gb/nf5410.htm" target="_blank">4.25上访</a>
 		<a href="https://my-ntdtv.herokuapp.com/proxy/http://www.ntdtv.com/xtr/gb/2018/01/24/a1360638.html" target="_blank">天安门自焚真相</a>
@@ -103,6 +106,7 @@ if($cont=="trending"){
 		<a href="https://my-ntdtv.herokuapp.com/proxy/http://www.zhuichaguoji.org/" target="_blank">追查国际</a>
 		<a href="https://my-ntdtv.herokuapp.com/proxy/http://qikan.minghui.org/display.aspx?category_id=4&guige_id=3" target="_blank">明慧期刊网</a>
 		<a href="https://my-ntdtv.herokuapp.com/proxy/http://www.mhradio.org/showcategory/36/index.html" target="_blank">天音静乐</a>
+		<br/>
 		<br/>
 	  <h5>共产党专题</h5>
 		<a href="https://my-ntdtv.herokuapp.com/proxy/http://www.ntdtv.com/xtr/gb/2014/11/19/a1155353.html" target="_blank">九评共产党</a>
