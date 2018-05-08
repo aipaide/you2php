@@ -24,7 +24,7 @@ if(isset($_GET['v'])){
   <div class="container p-1">
        <div class="row text-center p-1" >
         <div class="col-4"><a class="topbara" href="./"><i class="fa d-inline hico fa-home text-white"></i></a></div>
-        <div class="col-4"><a class="topbara" href="./content.php?cont=trending"><i class="fa d-inline hico fa-fire txt-topbar"></i></a></div>
+        <div class="col-4"><a class="topbara" href="./content.php?cont=gfw"><i class="fa d-inline hico fa-fire txt-topbar"></i></a></div>
         <div class="col-4"><a class="topbara" href="./content.php?cont=history"><i class="fa d-inline hico fa-history txt-topbar"></i></a></div>
   </div> 
   
