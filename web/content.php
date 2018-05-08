@@ -66,7 +66,7 @@ if($cont=="trending"){
             switch ($cont) {
 					case 'gfw':
 				echo '<br/>
-	  <h5>实用工具</h5>
+	  <h6>实用工具</h6>
 		<a href="https://my-ntdtv.herokuapp.com/proxy/https://www.google.com/search?q=425事件" target="_blank">Google搜索</a>
 		<a href="https://my-ntdtv.herokuapp.com/proxy/https://zh.wikipedia.org/wiki/喬高-麥塔斯調查報告" target="_blank">维基百科</a>
 		<a href="https://github.com/gfw-breaker" target="_blank">GitHub</a>
@@ -75,7 +75,7 @@ if($cont=="trending"){
 		<a href="https://my-ntdtv.herokuapp.com/proxy/http://wujieliulan.com/" target="_blank">无界网络</a>
 		<br/>
 		<br/>
-	  <h5>热门节目</h5>
+	  <h6>热门节目</h6>
 		<a href="https://my-ntdtv.herokuapp.com/tv.html" target="_blank">新唐人直播</a>
 		<a href="https://my-ntdtv.herokuapp.com/proxy/http://www.ntdtv.com/xtr/gb/prog109.html" target="_blank">大陆新闻解读</a>
 		<a href="https://my-ntdtv.herokuapp.com/proxy/http://www.ntdtv.com/xtr/gb/prog829.html" target="_blank">中国禁闻</a>
@@ -83,7 +83,7 @@ if($cont=="trending"){
 		<a href="https://my-ntdtv.herokuapp.com/proxy/http://www.ntdtv.com/xtr/gb/prog99.html" target="_blank">热点互动</a>
 		<br/>
 		<br/>
-	  <h5>新闻媒体</h5>
+	  <h6>新闻媒体</h6>
 	    <a href="https://my-ntdtv.herokuapp.com/proxy/http://www.epochtimes.com/" target="_blank">大纪元新闻网</a>
 		<a href="https://my-ntdtv.herokuapp.com/proxy/http://www.ntdtv.com/" target="_blank">新唐人电视台</a>
 		<a href="https://my-ntdtv.herokuapp.com/proxy/http://soundofhope.org/" target="_blank">希望之声电台</a>
@@ -96,7 +96,7 @@ if($cont=="trending"){
 		<a href="https://my-ntdtv.herokuapp.com/proxy/http://cn.rfi.fr/" target="_blank">法国国际广播电台</a>
 		<br/>
 		<br/>
-      <h5>法轮功真相</h5>
+      <h6>法轮功真相</h6>
 		<a href="https://my-ntdtv.herokuapp.com/proxy/http://www.epochtimes.com/gb/nf5410.htm" target="_blank">4.25上访</a>
 		<a href="https://my-ntdtv.herokuapp.com/proxy/http://www.ntdtv.com/xtr/gb/2018/01/24/a1360638.html" target="_blank">天安门自焚真相</a>
 		<a href="https://my-ntdtv.herokuapp.com/proxy/http://www.ntdtv.com/xtr/gb/2011/08/17/a296108.html" target="_blank">我们告诉未来</a>
@@ -108,7 +108,7 @@ if($cont=="trending"){
 		<a href="https://my-ntdtv.herokuapp.com/proxy/http://www.mhradio.org/showcategory/36/index.html" target="_blank">天音静乐</a>
 		<br/>
 		<br/>
-	  <h5>共产党专题</h5>
+	  <h6>共产党专题</h6>
 		<a href="https://my-ntdtv.herokuapp.com/proxy/http://www.ntdtv.com/xtr/gb/2014/11/19/a1155353.html" target="_blank">九评共产党</a>
 		<a href="https://my-ntdtv.herokuapp.com/proxy/http://www.ntdtv.com/xtr/gb/2017/12/31/a1357268.html" target="_blank">百年红祸</a>
 		<a href="https://my-ntdtv.herokuapp.com/proxy/http://www.epochtimes.com/gb/nf1156504.htm" target="_blank">共产党百年真相</a>
