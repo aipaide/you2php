@@ -35,6 +35,7 @@ function setcache($cacheid, $text){
 
 
 function getcache($cacheid){
+	echo "getcache:".$cacheid;
 	$item = $GLOBALS[$cacheid];
 	if(!empty($item)) {
 		echo $item->isvalid();
