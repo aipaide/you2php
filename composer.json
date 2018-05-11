@@ -5,6 +5,6 @@
     "ext-mbstring": "*",
     "ext-sqlite3": "*",
     "ext-imagick": "*",
-	"redis": "*"
+	"ext-redis": "*"
   }
 }
