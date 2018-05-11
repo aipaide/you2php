@@ -32,7 +32,7 @@ if(!isset($cache)) {
 
 
 function setcache($cacheid, $text){
-	$item = CacheItem($cacheid, time(), $text);
+	$item = new CacheItem($cacheid, time(), $text);
 	$cache[$cacheid] = $item;
 }
 
