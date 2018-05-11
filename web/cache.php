@@ -2,9 +2,9 @@
 
 class CacheItem {
 
-	private $cacheid;
-	private $timestamp;
-	private $text;
+	$cacheid;
+	$timestamp;
+	$text;
 
 	function __construct($cacheid, $timestamp, $text){
 		$this->cacheid = $cacheid;
@@ -20,7 +20,7 @@ class CacheItem {
 		return false;
 	}	
 
-	function __toString(){
+	public function __toString(){
 		return $this.text;
 	}
 }
@@ -44,11 +44,11 @@ function setcache($cacheid, $text){
 
 function getcache($cacheid){
 	$item = $cache[$cacheid];
-	if($item != NULL) {
+	if(!empty($item)) {
 		echo $item->isvalid();
 		echo $item->text;
 	}
-	if($item != NULL && $item->isvalid()){
+	if(!empty($item) && $item->isvalid()){
 		return $item;	
 	}
 	return '';
