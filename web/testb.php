@@ -1,3 +1,5 @@
 <?php
-	echo $_SERVER['ok'];
+	include('./cache.php');
+
+	echo CacheItem::$cache['ok'];
 ?>

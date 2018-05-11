@@ -2,6 +2,8 @@
 
 class CacheItem {
 
+	public static $cache = array();	
+
 	public $cacheid;
 	public $timestamp;
 	public $text;
@@ -28,6 +30,7 @@ class CacheItem {
 
 
 function setcache($cacheid, $text){
+	$cache = CacheItem::$cache;
 	$item = new CacheItem($cacheid, time(), $text);
 	$cache[$cacheid] = $item;
 	echo 'global:'.$cache[$cacheid]->text;
@@ -35,7 +38,7 @@ function setcache($cacheid, $text){
 
 
 function getcache($cacheid){
-	static $cache = array();
+	$cahe = CacheItem::$cache;
 	echo "getcache:".$cacheid;
 	$item = $cache[$cacheid];
 	if(!empty($item)) {
