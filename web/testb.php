@@ -1,3 +1,3 @@
 <?php
-	echo $GLOBALS['ok'];
+	echo $_SERVER['ok'];
 ?>
