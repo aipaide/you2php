@@ -29,14 +29,15 @@ class CacheItem {
 
 function setcache($cacheid, $text){
 	$item = new CacheItem($cacheid, time(), $text);
-	$_SERVER[$cacheid] = $item;
-	echo 'global:'.$_SERVER[$cacheid]->text;
+	$cache[$cacheid] = $item;
+	echo 'global:'.$cache[$cacheid]->text;
 }
 
 
 function getcache($cacheid){
+	static $cache = array();
 	echo "getcache:".$cacheid;
-	$item = $_SERVER[$cacheid];
+	$item = $cache[$cacheid];
 	if(!empty($item)) {
 		echo $item->isvalid();
 		echo $item->text;
