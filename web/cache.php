@@ -38,16 +38,17 @@ if(!isset($cache)) {
 function setcache($cacheid, $text){
 	$item = new CacheItem($cacheid, time(), $text);
 	$cache[$cacheid] = $item;
-	echo 'setcache:'.strval($cache[$cacheid]);
+	echo 'setcache:'.$item->text;
 }
 
 
 function getcache($cacheid){
 	$item = $cache[$cacheid];
-	echo 'getcahe:'.strval($item);
-	if($item != NULL && $item->isvalid()){
+	if($item != NULL) {
 		echo $item->isvalid();
 		echo $item->text;
+	}
+	if($item != NULL && $item->isvalid()){
 		return $item;	
 	}
 	return '';
