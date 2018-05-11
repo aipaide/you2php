@@ -1,7 +1,6 @@
 <?php
 	include('./cache.php');
 
-	CacheItem::$cache['ok'] = 'test';
+	echo getcache['ok'];
 
-	echo CacheItem::$cache['ok'];
 ?>

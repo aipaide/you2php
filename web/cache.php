@@ -30,7 +30,7 @@ class CacheItem {
 
 
 function setcache($cacheid, $text){
-	$cache = CacheItem::$cache;
+	$cache = $_ENV;
 	$item = new CacheItem($cacheid, time(), $text);
 	$cache[$cacheid] = $item;
 	echo 'global:'.$cache[$cacheid]->text;
@@ -38,7 +38,7 @@ function setcache($cacheid, $text){
 
 
 function getcache($cacheid){
-	$cahe = CacheItem::$cache;
+	$cahe = $_ENV;
 	echo "getcache:".$cacheid;
 	$item = $cache[$cacheid];
 	if(!empty($item)) {
