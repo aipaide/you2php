@@ -5,6 +5,10 @@
     "ext-mbstring": "*",
     "ext-sqlite3": "*",
     "ext-imagick": "*",
+<<<<<<< HEAD
 	"ext-redis": "*"
+=======
+	"predis/predis": "*"
+>>>>>>> 39288aa9f7e15e3a7d0449b21aeefc76ee4fee02
   }
 }
