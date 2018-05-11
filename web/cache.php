@@ -19,6 +19,10 @@ class CacheItem {
 		}
 		return false;
 	}	
+
+	function __toString(){
+		return $this.text;
+	}
 }
 
 
