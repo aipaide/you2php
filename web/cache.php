@@ -26,24 +26,16 @@ class CacheItem {
 }
 
 
-// Cache
-
-static $cache;
-
-if(!isset($cache)) {
-	$cache = array();
-}
-
 
 function setcache($cacheid, $text){
 	$item = new CacheItem($cacheid, time(), $text);
-	$cache[$cacheid] = $item;
+	$GLOBALS[$cacheid] = $item;
 	echo 'setcache:'.$item->text;
 }
 
 
 function getcache($cacheid){
-	$item = $cache[$cacheid];
+	$item = $GLOBALS[$cacheid];
 	if(!empty($item)) {
 		echo $item->isvalid();
 		echo $item->text;
