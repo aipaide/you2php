@@ -117,9 +117,9 @@ if (in_array($videodata['items']['0']['id'] ,$histmp)){
 
         
          <div class="col-md-4 col-sm-12 col-xs-12 col-lg-4 related">
-            <div class="font-weight-bold h6 pb-1">相关内容</div> 
+            <div class="font-weight-bold h6 pb-1">推荐内容</div> 
             <div id="videocontent"></div>
-            <script>$("#videocontent").load('<?php echo './ajax/ajax.php?v='.$_GET['v'].'&type=related'?>');</script>
+            <script>$("#videocontent").load('./ajax/ajax.php?v=wBz9UMpgmKI&type=related');</script>
          </div>
     </div>
 </div>
