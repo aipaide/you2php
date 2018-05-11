@@ -4,7 +4,7 @@ include('./cache.php');
 $cacheid = 'ok';
 $item = getcache($cacheid);
 
-echo '--'.$item.'--';
+echo '--'.strval($item).'--';
 
 if( $item === ''){
 	echo 'first time';
