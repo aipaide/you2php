@@ -39,7 +39,7 @@ function setcache($cacheid, $text){
 
 function getcache($cacheid){
 	$item = $cache[$cacheid];
-	if($item->isvalid()){
+	if($item != NULL && $item->isvalid()){
 		return $item;	
 	}
 	return '';
