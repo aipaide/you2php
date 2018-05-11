@@ -2,11 +2,11 @@
 
 class CacheItem {
 
-	$cacheid;
-	$timestamp;
-	$text;
+	public $cacheid;
+	public $timestamp;
+	public $text;
 
-	function __construct($cacheid, $timestamp, $text){
+	public function __construct($cacheid, $timestamp, $text){
 		$this->cacheid = $cacheid;
 		$this->timestamp = $timestamp;
 		$this->text = $text;
