@@ -165,7 +165,7 @@ ini_set('error_log', dirname(__FILE__) . '/error_log.txt');
     	 $related=get_playlist_video($_GET['plid'],APIKEY);
     	 
      foreach($related["items"] as $v) {
-		$videoid=.$v["snippet"]["resourceId"]["videoId"];
+		$videoid=$v["snippet"]["resourceId"]["videoId"];
        echo'<div class="media height1">
     		<div class="media-left" style="width:40%">
     		<a href="./watch.php?v='.$videoid.'">
