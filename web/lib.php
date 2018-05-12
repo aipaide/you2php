@@ -52,6 +52,12 @@ function get_related_video($vid,$apikey){
 }
 
 
+//获取播放列表视频
+function get_playlist_video($plid,$apikey){
+   $apilink='https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&type=video&maxResults=24&playlistId'.$plid.'&key='.$apikey;
+   return json_decode(get_data($apilink),true);
+}
+
 //获取用户频道视频
 function get_channel_video($cid,$pageToken='',$apikey,$regionCode='VN',$maxCount=50){
    $apilink='https://www.googleapis.com/youtube/v3/search?order=date&part=snippet&maxResults='.$maxCount.'&type=video&regionCode='.$regionCode.'&hl=zh-CN&channelId='.$cid.'&key='.$apikey.'&pageToken='.$pageToken;

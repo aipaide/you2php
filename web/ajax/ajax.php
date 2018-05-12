@@ -159,6 +159,32 @@ ini_set('error_log', dirname(__FILE__) . '/error_log.txt');
     	</div>';  
      }	
     		break;
+
+
+    	case 'playlist':
+    	 $related=get_playlist_video($_GET['plid'],APIKEY);
+    	 
+     foreach($related["items"] as $v) {
+		$videoid=.$v["snippet"]["resourceId"]["videoId"];
+       echo'<div class="media height1">
+    		<div class="media-left" style="width:40%">
+    		<a href="./watch.php?v='.$videoid.'">
+    		<img src="./thumbnail.php?type=mqdefault&vid='.$videoid.'" width="100%">
+    		</a>
+    		</div>
+    		<div class="media-body pl-2">
+    			<h5 class="media-heading height2">
+    				<a href="./watch.php?v='.$videoid.'" class="text-dark">'.$v["snippet"]["title"].'</a>
+    			</h5>
+    			<p class="small mb-0 pt-2">'
+    			.format_date($v["snippet"]["publishedAt"]).
+    			'</p>
+    		</div>
+    	</div>';  
+     }	
+    		break;
+
+
     case 'menu':
         $vica=videoCategories(APIKEY,GJ_CODE);
         
