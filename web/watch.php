@@ -119,7 +119,7 @@ if (in_array($videodata['items']['0']['id'] ,$histmp)){
          <div class="col-md-4 col-sm-12 col-xs-12 col-lg-4 related">
             <div class="font-weight-bold h6 pb-1">推荐内容</div> 
             <div id="videocontent"></div>
-            <script>$("#videocontent").load('./ajax/ajax.php?type=playlist&plid='<?php echo PLAYLIST_ID ?>);</script>
+            <script>$("#videocontent").load('./ajax/ajax.php?type=playlist&plid=<?php echo PLAYLIST_ID ?>');</script>
          </div>
     </div>
 </div>
