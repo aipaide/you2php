@@ -137,7 +137,6 @@ ini_set('error_log', dirname(__FILE__) . '/error_log.txt');
     break;
 
 
-
     	case 'related':
     	 $related=get_related_video($_GET['v'],APIKEY);
     	 

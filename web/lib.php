@@ -54,7 +54,7 @@ function get_related_video($vid,$apikey){
 
 //获取播放列表视频
 function get_playlist_video($plid,$apikey){
-   $apilink='https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&type=video&maxResults=24&playlistId'.$plid.'&key='.$apikey;
+   $apilink='https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&type=video&maxResults=24&playlistId='.$plid.'&key='.$apikey;
    return json_decode(get_data($apilink),true);
 }
 
