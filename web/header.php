@@ -16,7 +16,7 @@ error_reporting( E_ALL&~E_NOTICE );
 <script src="//cdn.bootcss.com/jquery/2.1.4/jquery.js"></script>
 <script src="//cdn.bootcss.com/jqueryui/1.11.2/jquery-ui.js"></script>
 <link href="//cdn.bootcss.com/video.js/5.20.4/alt/video-js-cdn.min.css" rel="stylesheet" />
-<script src="//libs.cdnjs.net/video.js/5.20.4/video.min.js"></script>
+<script src="//cdn.bootcss.com/video.js/5.20.4/video.min.js"></script>
 <script type="text/javascript" src="./inc/4.js"></script>
 <link rel="stylesheet" href="./inc/theme.css" type="text/css">
 <link rel="stylesheet" href="./inc/iconfont.css">
