@@ -56,6 +56,7 @@ if (in_array($videodata['items']['0']['id'] ,$histmp)){
                 <span class="pull-right"><i class="fa fa-eye"></i> <?php echo convertviewCount($videodata['items']['0']['statistics']['viewCount']) ?></span> 
                 
                 <div class="pt-3" style="clear: both;">
+		<p style="color: deeppink;">温馨提示：当视频无法正常播放时请点击 <a href="./content.php?cont=video&v=<?php echo $videodata['items']['0']['id'] ?>" target="_blank" style="color: brown;font-weight: bold;">下载</a> 进行观看</p>
                     <p id="des"><?php 
         				if(!empty($videodata['items']['0']['snippet']['description'])){ 
         				    preg_match_all('#\bhttps?://[^,\s()<>]+(?:\([\w\d]+\)|([^,[:punct:]\s]|/))#', $videodata['items']['0']['snippet']['description'], $match);
